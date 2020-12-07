@@ -1,0 +1,3 @@
+def remove_punctuation(text):
+    """Remove all punctuation except ! and ? from tweet text"""
+    return re.sub("[#]|[$]|[\"]|[%]|[\']|[&]|[(]|[)]|[*]|[+]|[=]|[-]|[_]|[@]|[.]|[:]|[;]|[,]|[<]|[>]|[`]|[~]|[\\]|[\/]|[{]|[}]|[\^]","",text)
